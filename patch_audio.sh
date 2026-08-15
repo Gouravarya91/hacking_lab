@@ -1,0 +1,1 @@
+sed -i 's/import android.media.AudioTrack/import android.content.Context\nimport android.os.Build\nimport android.os.VibrationEffect\nimport android.os.Vibrator\nimport android.os.VibratorManager\nimport android.media.AudioTrack/g' app/src/main/java/com/example/audio/CyberAudioEngine.kt

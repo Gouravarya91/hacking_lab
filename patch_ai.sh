@@ -1,0 +1,1 @@
+sed -i 's/val apiKey = try {/val apiKey = try {\n            val secureKey = com.example.data.local.SecurePreferencesManager.getApiKey("GEMINI_API_KEY")\n            if (!secureKey.isNullOrBlank()) secureKey else /' app/src/main/java/com/example/data/ai/CyberAiService.kt

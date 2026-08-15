@@ -1,0 +1,6 @@
+{
+  "name": "CYBER_LAB_PRO",
+  "description": "Comprehensive cybersecurity & ethical hacking lab with interactive sandbox CLI, threat intelligence, CVE explorer, CTF challenges, and AI cyber advisor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
